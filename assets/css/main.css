@@ -2124,8 +2124,8 @@ input, select, textarea {
 				/*border-radius: 100%;*/
 				object-fit: cover;
   				border-radius: 50%;
-  				height: 20em;
- 				width: 20em;
+  				height: 100%;
+ 				width: 100%;
 			}
 
 		#top h1 {
