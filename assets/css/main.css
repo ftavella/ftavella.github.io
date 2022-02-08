@@ -1638,9 +1638,12 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
+			/* display: block; */
 			width: 100%;
-			margin: 0 0 2em 0;
+			max-width: 15em; 
+			/* margin: 0 0 2em 0; */
+			margin: auto; 
+			padding: 1em 1em 0em 1em;
 		}
 
 		.image.left {
@@ -2443,3 +2446,11 @@ input, select, textarea {
 					}
 
 	}
+
+/* Custom classes */
+.portfolio-image {
+	max-width: 20rem; 
+	height: auto; 
+	margin: auto; 
+	padding: 1rem;
+}
